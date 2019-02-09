@@ -1,86 +1,70 @@
-@media (max-width: 300px) {
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-  .complete-name {
-    display: none;
-  }
-
-  .felipe {
-    display: inline;
-  }
-
-  nav a {
-    clear: left;
-  }
-}
- 
- nav {
-  overflow: hidden;
-  background-color: #fff;
-  width: 100%;
-  float: left;
-  border: 1px solid #333;
-}
-
-nav span {
-  color: #333;
-  font-size: 20px;
-}
-
-.felipe {
-  display: none;
-}
-
-nav a {
-  float: left;
-  font-size: 16px;
-  color: #333;
+body {
+  width: 700px;
+  margin: 0 auto;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  background: #b6ccef;
 }
 
-.subnav {
-  float: left;
-  overflow: hidden;
-}
-
-.subnav .subnavbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: #333;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-nav a:hover, .subnav:hover .subnavbtn {
-  background-color: #333;
-  color: #fff ;
-}
-
-.subnav-content {
+.inv {
   display: none;
-  position: absolute;
-  left: 0;
-  background-color: #fff;
-  color: #333;
-  width: 100%;
-  z-index: 1;
 }
 
-.subnav-content a {
-  float: left;
-  color: #333;
-  text-decoration: none;
+.personal-info p {
+  font-size: 5rem;
+  margin-bottom: 15px;
 }
 
-.subnav-content a:hover {
-  background-color: #333;
+.profissional-info p {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.social-networks {
+  display: flex;
+  justify-content: center;
+}
+
+.social-networks a {
+  padding: 20px;
+  margin: 5px;
   color: #fff;
+  font-size: 1.4rem;
 }
 
-.subnav:hover .subnav-content {
-  display: block;
-} 
+.linkedin {
+  background: #0077B5;
+}
+
+.facebook {
+  background: #3b5998;
+}
+
+.instagram {
+  background: #f58529;
+}
+
+.github {
+  background: #000;
+}
+
+.social-networks a:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 700px){
+
+  body{ 
+    width: 100%;
+  }
+
+  .personal-info p {
+    font-size: 3rem;
+  }
+
+  .profissional-info p {
+    font-size: 1rem;
+  }
+}
