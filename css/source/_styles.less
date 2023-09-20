@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import "_variables.less";
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: @font-family;
+
+    @media (max-width: 700px){
+        width: 100%;
+    }
+
+    .inv {
+        display: none;
+    }
+
+    .personal-info {
+
+        p {
+            font-size: 5rem;
+            margin-bottom: 15px;
+
+            @media (max-width: 700px){
+                font-size: 3rem;
+            }
+        }
+    }
+
+    .profissional-info {
+
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+
+            @media (max-width: 700px){
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .social-networks {
+      display: flex;
+      justify-content: center;
+
+        a {
+            padding: 20px;
+            margin: 5px;
+            color: #fff;
+            font-size: 1.4rem;
+
+            &.linkedin {
+                background: #0077B5;
+            }
+
+            &.facebook {
+                background: #3b5998;
+            }
+            
+            &.instagram {
+                background: #f58529;
+            }
+            
+            &.github {
+                background: #000;
+            }
+
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+    }
+}

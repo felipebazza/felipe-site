@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aX8.ttf) format('truetype');
+}
+.container {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+@media (max-width: 700px) {
+  .container {
+    width: 100%;
+  }
+}
+.container .inv {
+  display: none;
+}
+.container .personal-info p {
+  font-size: 5rem;
+  margin-bottom: 15px;
+}
+@media (max-width: 700px) {
+  .container .personal-info p {
+    font-size: 3rem;
+  }
+}
+.container .profissional-info p {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+@media (max-width: 700px) {
+  .container .profissional-info p {
+    font-size: 1rem;
+  }
+}
+.container .social-networks {
+  display: flex;
+  justify-content: center;
+}
+.container .social-networks a {
+  padding: 20px;
+  margin: 5px;
+  color: #fff;
+  font-size: 1.4rem;
+}
+.container .social-networks a.linkedin {
+  background: #0077B5;
+}
+.container .social-networks a.facebook {
+  background: #3b5998;
+}
+.container .social-networks a.instagram {
+  background: #f58529;
+}
+.container .social-networks a.github {
+  background: #000;
+}
+.container .social-networks a:hover {
+  opacity: 0.5;
+}
