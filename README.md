@@ -1,8 +1,12 @@
-# Personal Site
+# Felipe Site App
 
-## Running the project locally
-- Install the NPM packages
+## Installation and Usage
 
-  - `npm install`
+- Run the following command to install the dependencies:
 
-- Make changes to the `.less` files
+    `yarn install`
+
+
+- Run the following command to run the application:
+
+    `yarn run dev-server`
