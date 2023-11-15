@@ -71,3 +71,47 @@
         }
     }
 }
+
+.navigation-menu {
+    position: relative;
+    display: inline-block;
+
+    .nav__button {
+        background-color: @menu-btn-color;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+
+        &:hover {
+            background-color: #3e8e41;
+        }
+    }
+
+    &:hover {
+
+        & > .dropdown-content {
+            display: block;
+        }
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 280px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        z-index: 1;
+
+        a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+
+            &:hover {
+                background-color: #ddd;
+            }
+        }
+    }
+}

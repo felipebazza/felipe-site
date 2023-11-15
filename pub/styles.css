@@ -61,3 +61,37 @@
 .container .social-networks a:hover {
   opacity: 0.5;
 }
+.navigation-menu {
+  position: relative;
+  display: inline-block;
+}
+.navigation-menu .nav__button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.navigation-menu .nav__button:hover {
+  background-color: #3e8e41;
+}
+.navigation-menu:hover > .dropdown-content {
+  display: block;
+}
+.navigation-menu .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 280px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.navigation-menu .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.navigation-menu .dropdown-content a:hover {
+  background-color: #ddd;
+}
