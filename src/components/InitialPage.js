@@ -9,7 +9,8 @@ const InitialPage = () => (
         </section>
         <section className="profissional-info">
             <div>
-                <p>Frontend, Qualidade, Coordenação e Mídias Sociais</p>
+                <p>Magento 2 / Adobe Commerce - Certified Expert Front End Developer</p>
+                <p>BigCommerce Certified Developer</p>
             </div>
         </section>
         <section className="social-networks">
