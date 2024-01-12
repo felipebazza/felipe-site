@@ -6,8 +6,8 @@ const Header = () => (
             <button className="button nav__button">
                 Training Projects
                 <div className="dropdown-content">
-                    <a href="https://felipebazza.github.io/indecision-app/">Indecision App - React, Webpack, SASS</a>
-                    <a className='wip' href="https://felipebazza.github.io/expensify-app/">Expensify App - React, Redux, Webpack, SASS, Jest</a>
+                    <a href="https://felipebazza.github.io/indecision-app/" target="_blank">Indecision App - React, Webpack, SASS</a>
+                    <a className='wip' href="https://felipebazza.github.io/expensify-app/" target="_blank">Expensify App - React, Redux, Webpack, SASS, Jest</a>
                 </div>
             </button>
             <button className="button nav__button">
