@@ -18,7 +18,10 @@ html {
 
 body {
     font-family: $font-family;
-    background: url('/images/background.jpg') no-repeat center;
+    // To deploy
+    background: url('../../../public/images/background.jpg') no-repeat center;
+    // To local development
+    // background: url('/images/background.jpg') no-repeat center;
     background-size: cover;
 }
 
