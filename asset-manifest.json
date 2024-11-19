@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/felipe-site/static/css/main.f732e489.css",
-    "main.js": "/felipe-site/static/js/main.dc84fa11.js",
+    "main.css": "/felipe-site/static/css/main.94772441.css",
+    "main.js": "/felipe-site/static/js/main.29b486f6.js",
     "static/media/background.jpg": "/felipe-site/static/media/background.e89d653fbf1544eed261.jpg",
     "index.html": "/felipe-site/index.html",
-    "main.f732e489.css.map": "/felipe-site/static/css/main.f732e489.css.map",
-    "main.dc84fa11.js.map": "/felipe-site/static/js/main.dc84fa11.js.map"
+    "main.94772441.css.map": "/felipe-site/static/css/main.94772441.css.map",
+    "main.29b486f6.js.map": "/felipe-site/static/js/main.29b486f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.f732e489.css",
-    "static/js/main.dc84fa11.js"
+    "static/css/main.94772441.css",
+    "static/js/main.29b486f6.js"
   ]
 }
