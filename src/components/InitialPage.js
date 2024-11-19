@@ -2,6 +2,7 @@ import React from 'react';
 
 const InitialPage = () => (
     <main className="container">
+        <div class="bg-image"></div>
         <section className="personal-info">
             <div className="header">
                 <p>Felipe Alexandre Bazzanella</p>
@@ -10,6 +11,7 @@ const InitialPage = () => (
         <section className="profissional-info">
             <div>
                 <p>Magento 2 / Adobe Commerce - Certified Expert Front End Developer</p>
+                <p>Magento 2 / Adobe Commerce - Certified Professional Developer</p>
                 <p>BigCommerce Certified Developer</p>
             </div>
         </section>
